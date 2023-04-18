@@ -1,0 +1,136 @@
+// $color-primary: #EC5500;
+// $color-secondary: #212429;
+// $color-tertiary: #fff;
+// $color-quaternary: #282828;
+// $color-accent: rgba(236, 85, 0, 1);
+
+// $font-primary: 'Inter-accent', sans-serif;
+// $font-secondary: 'Ubuntu', sans-serif;
+
+// * {
+//   box-sizing: border-box;
+//   margin: auto 0;
+// }
+
+// h1 {
+//   font-family: $font-primary;
+//   font-style: normal;
+//   color: $color-primary;
+//   font-weight: 700;
+//   font-size: 64px;
+//   line-height: 74px;
+// }
+
+// h2,
+// p {
+//   font-size: 28px;
+//   font-weight: 400;
+//   line-height: 36px;
+//   font-family: $font-secondary;
+//   font-style: normal;
+// }
+
+// /* NAVBAR */
+
+// .navbar {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   padding: 0 100px;
+//   height: 88px;
+//   background: $color-secondary;
+//   z-index: 1000;
+//   border-bottom: 2px solid $color-tertiary;
+//   max-width: 100%;
+//   margin: 0 auto;
+
+//   &__wrap {
+//     display: flex;
+//     justify-content: space-between;
+//     max-width: 100%;
+//     height: 100%;
+//   }
+
+//   .hamb {
+//     display: none;
+//   }
+
+//   .popup {
+//     display: none;
+//   }
+
+//   .logo {
+//     text-decoration: none;
+//     color: $color-tertiary;
+//     display: flex;
+//     margin: 27px 0 26px 0;
+//     height: 35px;
+//   }
+
+//   .menu {
+//     position: relative;
+//     height: 24px;
+//     width: 375px;
+//     display: flex;
+//     padding-inline-start: 0px;
+//     margin: 32px 0;
+//     list-style-type: none;
+
+//     > li > a {
+//       text-decoration: none;
+//       font-weight: 500;
+//       font-size: 16px;
+//       line-height: 24px;
+//       color: $color-tertiary;
+//       font-family: $font-secondary;
+//       font-style: normal;
+//       margin: 0;
+//     }
+
+//     > li:last-child {
+//       margin-right: 0px;
+//     }
+
+//     > li {
+//       margin-right: 48px;
+//     }
+
+//     .number {
+//       width: 138px;
+//       margin-left: 10px;
+
+//       > p {
+//         height: 24px;
+//         font-weight: 500;
+//         font-size: 16px;
+//         line-height: 24px;
+//         color: $color-tertiary;
+//         margin: 32px 0;
+//       }
+//     }
+
+//     li:nth-child(1) a {
+//       width: 42px;
+//     }
+
+//     li:nth-child(2) a {
+//       width: 46px;
+//     }
+
+//     li:nth-child(3) a {
+//       width: 50px;
+//     }
+
+//     li:nth-child(4) a {
+//       width: 75px;
+//     }
+
+//     &:hover {
+//       > li > a {
+//         color: $color-primary;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+// }

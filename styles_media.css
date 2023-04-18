@@ -1,0 +1,1136 @@
+@media only screen and (max-width : 1300px) {
+    .main {
+        padding-right: 0;
+        justify-content: flex-start;
+    }
+
+    .container_about_us {
+        padding: 104px 6%;
+    }
+
+    .our_phrase {
+        width: 550px;
+        height: 164px;
+    }
+
+    .img_main {
+        width: 398px;
+        margin-right: 21.5px;
+    }
+
+    .map {
+        display: flex;
+        flex-direction: column-reverse;
+
+        padding: 72px 100px 0;
+        height: 1024px;
+    }
+
+    .map_img {
+        height: 562px;
+        width: 768px;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+    }
+
+    .img_main_map {
+        width: 100%;
+        height: 100%;
+        border-top: 2px solid #fff;
+    }
+
+    .container_w-1200 {
+        width: 100%;
+        padding-right: 0;
+        justify-content: flex-end;
+    }
+
+    .map_text {
+        padding: 72px 0 46px;
+        height: 463px;
+        margin-top: 0;
+    }
+
+    .map_text > h1 {
+        margin-bottom: 56px;
+    }
+
+    .container_btn_to_top {
+        position: absolute;
+        left: 87.6vw;
+        margin-top: 300px;
+    }
+
+    .btn_to_top {
+        top: 562px;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .navbar {
+        padding: 0 40px;
+    }
+
+    .menu {
+        width: 309px;
+        margin: 32px 36px;
+    }
+
+    .navbar_wrap {
+        min-width: 720px;
+    }
+
+    .menu > li {
+        margin-right: 32px;
+        display: inline-block;
+    }
+
+    .number {
+        margin-left: 0;
+    }
+
+    .header_khmel {
+        height: 936px;
+        min-width: 768px;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header_photo_khmel {
+        height: 440px;
+        max-width: 1200px;
+        min-width: 768px;
+        overflow: hidden;
+    }
+    
+    .photo_khmel {
+        position: absolute;
+        top: 88px;
+        min-width: 768px;
+        max-width: 1200px;
+        object-fit: cover;
+        width: 100%;
+        height: 440px;
+    }
+
+    .khmel_text {
+        height: 496px;
+        padding: 56px 40px 72px;
+        border: none;
+        padding-bottom: 72px;
+        margin: 0 auto;
+    }
+
+    .p_text_khmel {
+        max-width: 688px;
+        margin: 0;
+        margin-bottom: 48px;
+    }
+
+    .khmel_text > h1 {
+        margin: 24px 0 32px;
+        font-size: 56px;
+        line-height: 66px;
+    }
+
+    .button_menu {
+        margin-top: 0;
+    }
+
+    .button_menu_look {
+        width: 157px;
+        height: 58px;
+        padding: 16px;
+        margin-top: 56px;
+        color: white;
+        background-color: rgba(236, 85, 0, 1);
+        border: none;
+        font-weight: 500;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .about_us {
+        display: flex;
+        flex-direction: column;
+
+        min-width: 768px;
+        max-width: 1200px;
+        height: 1130px;
+
+        padding: 72px 40px;
+    }
+
+    .container_about_us {
+        padding: 0;
+        margin: 0;
+    }
+
+    .text_about_us {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 31px;
+    }
+
+    .text_about_us>p {
+        margin: 56px 0 31px;
+        width: 328px;
+        height: auto;
+    }
+
+    .text_about_us::after {
+        content: "";
+        display: inline-block;
+        width: 684px;
+        height: 452px;
+        background-image: url("./img_2/image2screen-w786.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        border: 2px solid #fff;
+        margin: auto;
+    }
+
+    .photo_beer {
+        display: none;
+    }
+
+    .our_phrase {
+        width: 656px;
+        height: 144px;
+        font-weight: 500;
+        max-width: 656px;
+        position: relative;
+        align-items: center;
+    }
+
+    .our_phrase > h2 {
+        width: 656px;
+        height: 144px;
+    }
+
+    .wrap_about_us {
+        margin: 0;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 72px 40px;
+        height: 1044px;
+    }
+
+    .main_text {
+        height: 404px;
+        width: 688px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    
+    .main_text > p{
+        width: 688px;
+    }
+
+    .first, .second  {
+        width: 327px;
+        height: 130px;
+    }
+
+    .first, .second {
+        margin-top: 32px;
+    }
+
+    .third, .fourth {
+        width: 327px;
+        margin-top: 8px;
+    }
+
+    .main_photo {
+        height: 456px;
+        width: 100%;
+        min-width: 688px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .img_main {
+        max-width: 1075px;
+        min-width: 688px;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .benefits {
+        height: 332px;
+        margin-bottom: 40px;
+    }
+
+    hr {
+        width: 327px;
+    }
+
+    .everyday_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 1197px;
+
+        padding: 72px 40px;
+    }
+
+    .everyday_menu_text, .everyday_menu_text>p {
+        width: 328px;
+    }
+
+    .everyday_menu_text>p:last-child {
+        margin: 32px 0 48px;
+        width: 481px;
+    }
+
+    .everyday_lunch {
+        height: 396px;
+        margin: 0;
+    }
+
+    .everyday_lunch > h1 {
+        margin-bottom: 56px;
+    }
+
+    .button_menu_look {
+        margin-top: 0;
+    }
+
+    .everyday_carusel {
+        margin: 160px auto 0;
+    }
+
+    .promo {
+        height: 714px;
+        padding: 72px 40px;
+    }
+
+    .promo_blocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .promo_1, .promo_2, .promo_3 {
+        width: 400px;
+        height: 120px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        padding: 24px 0;
+    }
+
+    .promo_3 {
+        margin-top: 104px;
+    }
+      
+    .promo_blocks:last-child {
+        width: 100%;
+        position: relative;
+    }
+
+    .promo_text {
+        width: 286px;
+        height: 48px;
+        margin: 24px 15% 56px;
+
+        text-align: center;
+    }
+
+    .map {
+        padding: 72px 100px 0 40px;
+    }
+
+    .footer {
+        padding: 35px 40px 32px;
+        height: 171px;
+    }
+
+    .container_rul {
+        margin-left: 0;
+    }
+
+    .footer .menu {
+        width: 309px;
+    }
+}
+
+@media only screen and (max-width : 1000px) {
+    .promo_1, .promo_2, .promo_3 {
+        width: 328px;
+    }
+
+    .container_btn_to_top {
+        left: 630px;
+        /* left: 0;
+        right: 100px; */
+    }
+
+    .promo_text {
+        margin: 24px 0;
+    }
+}
+
+@media only screen and (max-width : 865px) {
+    .map_img {
+        position: relative;
+        width: 100vw;
+        left: -40px;
+        border-top: 2px solid #fff;
+    }
+
+    .map_text {
+        border: none;
+    }
+
+    .container_btn_to_top {
+        left: 0;
+        right: 100px;
+    }
+}
+
+@media (min-width: 769px) {
+    .our_phrase > h2 > .text_color:before {
+      content: "\a";
+      white-space: pre;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .navbar{
+        padding: 0 16px;
+    }
+
+    .navbar__wrap {
+        flex-direction: row-reverse;
+    }
+
+    .number {
+        display: none;
+    }
+
+    li:first-child {
+        margin-left: 0;
+    }
+
+    .navbar__wrap .menu {
+      display: none;
+    }
+
+    .hamb {
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+    .hamb__field {
+      cursor: pointer;
+    }
+
+    .hamb__field::before {
+        content: '';
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url('./img_2/icons/Vector\ 62.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: 24px;
+
+        position: absolute;
+        left: -48px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .bar {
+      display: block;
+      width: 24px;
+      height: 2.18px;
+      margin: 8.73px auto;
+      background-color: #fff;
+      transition: 0.2s;
+    }
+    .popup {
+      position: fixed;
+      top: 88px;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      z-index: 100;
+      display: flex;
+      transition: 0.3s;
+    }
+    .popup.open {
+      left: 0;
+    }
+    .popup .menu {
+      width: 100%;
+      height: 312px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      background-color: #fff;
+      padding: 48px;
+      
+      min-width: 281px;
+    }
+
+    @keyframes fade-in {
+        from { opacity: 0; }
+        to { opacity: 0.7; }
+    }
+
+    .menu:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(40, 40, 40, 0.7);;
+        animation: fade-in 2s ease-in-out forwards;
+        animation-delay: 0s;
+        z-index: -1;
+
+        animation-name: fade-in;
+        animation-duration: 2s;
+    }
+
+    .popup .menu > li {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .popup .menu > li > a {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #282828;
+      padding: 16px 0;
+
+      min-width: 279px;
+    }
+
+    .popup .menu > li {
+        width: 100%;
+        height: 56px;
+        border: 1px solid rgb(40, 40, 40, .3);
+        border-width: 0 0 2px 0;
+    }
+
+    .popup .menu > li :hover {
+      background-color: rgba(69, 69, 69, 0.3);
+    }
+
+    .popup .menu > li:last-child {
+        margin-right: 32px;
+    }
+
+    body.noscroll {
+      overflow: hidden;
+    }
+
+    .header_khmel {
+        height: 936px;
+        width: 100%;
+        min-width: 480px;
+        max-width: 768px;
+    }
+
+    .khmel_text {
+        padding: 32px 23px 48px 16px;
+        margin: 0;
+        width: 100%;
+        line-height: 34px;
+        font-weight: 700;
+        font-family: 'Inter-accent', sans-serif;
+        font-size: 28px;
+    }
+
+    .khmel_text p:first-of-type {
+        font-size: 18px;
+        line-height: 26px;
+        width: 159px;
+        margin-bottom: 0;
+    }
+
+    .p_text_khmel {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 343px;
+    }
+
+    .khmel_text>h1 {
+        font-size: 37px;
+        line-height: 45px;
+        
+
+        max-width: 100%;
+    }
+
+    .header_photo_khmel {
+        height: 260px;
+        max-width: 100%;
+        min-width: 480px;
+    }
+    
+    .photo_khmel {
+        min-width: 480px;
+        max-width: 100%;
+        height: 440px;
+        object-fit: cover;
+    }
+
+    .about_us {
+        max-width: 767px;
+        min-width: 480px;
+        height: 929px;
+
+        padding: 48px 16px;
+    }
+
+    .text_about_us {
+        margin-bottom: 0;
+    }
+  
+    .text_about_us>h1 {
+        font-size: 37px;
+        line-height: 45px;
+        width: 103px;
+    }
+
+    .text_about_us>p {
+        font-size: 14px;
+        line-height: 22px;
+        width: 343px;
+        height: 154px;
+        margin: 32px 0 24px;
+    }
+
+    .text_about_us::after {
+        display: none;
+    }
+
+    .photo_beer_w768 {
+        display: block;
+        max-width: 100%;
+        min-width: 480px;
+    }
+        
+    .img_beer {
+        min-width: 480px;
+        width: 100%;
+        height: 458px;
+        min-height: 248px;
+        object-fit: cover;
+    }
+
+    .our_phrase {
+        width: 326px;
+        margin-top: 24px;
+    }
+
+    .our_phrase>h2 {
+        font-size: 18px;
+        line-height: 24px;
+        height: 96px;
+        padding-left: 17px;
+        width: 326px;
+    }
+
+    .main {
+        padding: 48px 16px;
+        height: 111.5%;
+    }
+
+    .main_text {
+        width: 91.5vw;
+        margin: 0;
+        height: 100%;
+        max-height: 570px;
+    }
+
+    .main_text > p {
+        width: 91.5vw;
+        line-height: 24px;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .main_text_ben {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .first, .second, .third, .fourth {
+        min-width: 160px;
+        width: 42.65vw;
+        height: 100%;
+        max-height: 196px;
+    }
+
+    .benefits {
+        gap: 25px;
+        max-height: 450px;
+        height: 100%;
+        margin-bottom: 0;
+    }
+
+    .main_text_info {
+        margin-top: .5em;
+    }
+
+    .img_main {
+        min-width: 480px;
+        width: 100vw;
+        min-height: 248px;
+        object-fit: cover;
+    } 
+
+    .main_photo {
+        height: 456px;
+        width: 100%;
+        min-width: 375px;
+        overflow: hidden;
+    }
+
+    .everyday_menu {
+        padding: 48px 16px;
+    }
+
+    .everyday_carusel {
+        width: 100%;
+    }
+
+    .promo {
+        padding: 48px 40px;
+        height: 714px;
+
+        min-width: 480px;
+        width: 100%;
+    }
+
+    .promo > h1 {
+        margin-bottom: 32px;
+    }
+
+    .promo > h1 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .promo_blocks {
+        height: 528px;
+    }
+
+    .promo_1, .promo_2, .promo_3 {
+        width: 85%;
+        height: 64px;
+        text-align: center;
+        margin-bottom: 12px;
+
+        padding: 8px 0;
+    }
+
+    .promo_3 {
+        margin-top: 0;
+    }
+
+    .promo_1 > h2, .promo_2 > h2, .promo_3 > h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .map {
+        width: 100%;
+        padding: 48px 0px 0 16px;
+    }
+
+    .map_text {
+        height: 351px;
+        padding: 0;
+    }
+
+    .map_text > h1 {
+        font-size: 37px;
+        line-height: 45px;
+
+        margin-bottom: 33px;
+    }
+
+    .map_action>p, .map_time>p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .map_text>h2 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .map_img {
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        left: -16px;
+    }
+
+    .container_w-1200 {
+        justify-content: flex-start;
+        height: 462px;
+    }
+
+    .footer_nav {
+        display: none;
+    }
+
+    .nav_w-768 {
+        display: block;
+        width: 100vw;
+        height: 112px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 2px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .nav_1, .nav_2, .nav_3, .nav_4 {
+        width: 100%;
+        height: 100%;
+
+        padding: 15px 0;
+
+        background-color: #212429;
+        text-align: center;
+    }
+
+    .nav_w-768 > div > a {
+        color: #fff;
+        text-decoration: none;
+
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .nav_w-768 > div > a:hover {
+        color:rgba(236, 85, 0, 1);
+    }
+}
+
+@media only screen and (max-width : 654px) {
+    .everyday_menu {
+        min-width: 480px;
+        height: 100%;
+    }
+      
+    .burger {
+        margin-top: 56px;
+        width: 75vw;
+        text-align: center;
+    }
+      
+    .img_burger {
+        width: 90%;
+        padding: 0;
+        object-fit: cover;
+        height: 55.5%;
+    }
+      
+    .everyday_lunch {
+        min-height: 283px;
+        height: auto;
+        width: 100%;
+    }
+
+    .everyday_lunch >h1 {
+        margin-bottom: 56px;
+        font-size: 37px;
+        line-height: 45px;
+        display: inline-block;
+    } 
+      
+    .everyday_carusel {
+        width: 100%;
+        height: 436px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+      
+    .everyday_menu_text :last-child {
+        display: none;
+        height: 0;
+    }
+      
+    .everyday_lunch > .button_menu {
+        display: none;
+        height: 0;
+    }
+
+    .everyday_menu_text :first-child {
+        height: 132px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .under_content-w-768 {
+        display: inline-block;
+        font-weight: 400;
+        position: relative;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .under_content-w-768 > p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .nav_under_burger {
+        position: relative;
+    }
+
+    .button_menu_under {
+        margin-top: 32px;
+        display: block;
+    }
+
+    .button_menu_under:hover {
+        border: 1px solid #fff;
+        transition: .5s;
+    }
+
+    .map {
+        min-height: 599px;
+        height: auto;
+    }
+
+    .container_w-1200 {
+        min-height: 351px;
+        height: 100%;
+    }
+
+    .map_img {
+        height: 248px;
+        min-width: 375px;
+    }
+
+    .img_main_map {
+        height: 246px;
+        min-width: 375px;
+        object-fit: cover;
+    }
+
+    .btn_to_top {
+        position: relative;
+        bottom: 40px;
+        left: 108.5%;
+        top: 225px;
+
+        width: 40px;
+        height: 40px;
+        margin: 0 16px 32px 0;
+    }
+}
+
+@media only screen and (max-width : 544px) {
+    .main_text_ben {
+        height: 29.6%;
+    }
+
+    .benefits {
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+@media only screen and (max-width : 512px) {
+    .about_us {
+        position: relative;
+        height: 719px;
+        width: 100%;
+        min-width: 375px;
+    }
+
+    .text_about_us>h1 {
+        margin: 0;
+    }
+
+    .our_phrase {
+        position: absolute;
+        top: 527px
+    }
+
+    .photo_beer_w768 {
+        display: block;
+        position: absolute;
+        top: 303px;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        width: 100%;
+        min-width: 375px;
+    }
+
+    .img_beer {
+        min-width: 375px;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        height: 248px;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .navbar {
+        height: 83px;
+    }
+
+    .logo {
+        margin: 24px 0;
+    }
+
+    .popup {
+        top: 83px;
+    }
+
+    .header_khmel {
+        min-width: 375px;
+        max-width: 480px;
+        width: 100%;
+        height: 585px;
+        display: flex;
+        flex-direction: column-reverse;
+        background-image: url("./img/image\ 1\ screen.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 83px;
+    }
+
+    .header_photo_khmel {
+        height: 248px;
+        min-width: 375px;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .photo_khmel {
+        height: 246px;
+        min-width: 375px;
+        object-fit: cover;
+        top: 83px;
+    }
+
+    .khmel_text {
+        background-color: #282828;
+        min-width: 375px;
+        max-width: 480px;
+        height: 336px;
+        padding: 32px 23px 48px 16px;
+        border: none;
+    }
+
+    .khmel_text>h1 {
+        width: 340px;
+        height: 45px;
+        margin: 12px 0 14px;
+    }
+
+    .p_text_khmel {
+        min-width: 343px;
+        width: 343px;
+        height: 96px;
+        margin-bottom: 0;
+
+        font-size: 18px;
+    }
+
+    .button_menu {
+        width: 142px;
+        height: 42px;
+        padding: 8px 16px;
+        font-size: 14px;
+        margin: 24px 0 0;
+        line-height: 24px;
+    }
+
+    .main {
+        height: 111.5%;
+        padding-bottom: 0;
+    }
+
+    .main_text_ben {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .main_text_info {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #beer, #ball, #location, #rub {
+        margin-right: 10px;
+    }
+
+    .main_photo {
+        position: relative;
+        left: -16px;
+        z-index: 2;
+        width: 100vw;
+        min-width: 375px;
+        height: 250px;
+    }
+
+    .img_main {
+        min-width: 375px;
+        width: 100%;
+        height: 248px;
+    }
+
+    .everyday_menu {
+        min-width: 375px;
+        height: 100%;
+        padding: 48px 16px 47px;
+    }
+
+    .button_menu_under {
+        width: 142px;
+        height: 42px;
+        padding: 8px 16px;
+        font-size: 14px;
+        margin: 24px 0 0;
+        line-height: 24px;
+    }
+
+    .promo {
+        padding: 47px 16px;
+
+        min-width: 375px;
+        width: 100%;
+    }
+
+    .map_text>h2 {
+        margin: 32px 0 24px;
+    }
+}
