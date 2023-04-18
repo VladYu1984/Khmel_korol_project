@@ -1,1 +1,1 @@
-# Website of restoran "Khmel Korol"
+# Website of restaurant "Khmel Korol"
